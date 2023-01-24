@@ -6,7 +6,7 @@ function Menu() {
   const context = useContext(ProductContext)
   const [cart] = context.productApi.cart
   return (
-    <nav className='navbar navbar-expand-md navbar-dark bg-success'>
+    <nav className='navbar navbar-expand-md navbar-dark bg-secondary'>
       <div className="container">
             <NavLink to={`/`} className="navbar-brand">E-Shop</NavLink>
 
